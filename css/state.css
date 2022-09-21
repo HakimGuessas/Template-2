@@ -1,0 +1,25 @@
+:root{
+    --mainColor:#7b5244;
+    --subColor:#333333;
+}
+    /* slider*/
+.slider .slider-dotted-parent .slider-dotted.active{
+    background-color:#000;
+}
+
+.category .slider-dotted-parent .slider-dotted.active{
+    background-color:#000;
+    transform:scale(1,1);
+}
+
+/* category*/
+
+.first-lines .first-line.active{
+    background:var(--mainColor);
+}
+
+/*featured*/
+
+.featured-links .featured-link.active a{
+    color:var(--mainColor);
+}

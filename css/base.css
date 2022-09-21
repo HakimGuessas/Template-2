@@ -1,0 +1,18 @@
+                    /* Base SMACSS*/
+body{
+font-family: 'PT', sans-serif;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+:root{
+    --mainColor:#7b5244;
+    --subColor:#333333;
+}
